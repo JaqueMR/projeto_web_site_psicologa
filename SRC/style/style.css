@@ -12,12 +12,12 @@
 
 
 :root {
-	/* --bg-color: radial-gradient(circle at 60% 50%, rgba(238,174,202,1) 0%, rgb(127, 172, 224) 100%); */
-	--bg-color: radial-gradient(circle at 70% 50%, rgb(255, 255, 255) 0%, rgba(196, 177, 189, 0.863) 100%);
-	--text-color: #363636;
-	--main-color: rgb(211, 68, 68);
-	/* --main-color: hsl(250, 52%, 36%); */
+	--bg-color: radial-gradient(circle at 70% 50%, rgb(255, 255, 255) 0%, rgba(196, 177, 189, 0.863) 80%);
+	--text-color: #222222; 
+	--main-color: rgb(185, 40, 40); 
+
 }
+
 
 body {
 	min-height: 100vh;
