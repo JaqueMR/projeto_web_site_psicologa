@@ -134,7 +134,7 @@ function sendMail() {
     };
 
     const serviceID = "service_cxk474h"; 
-    const templateID = "service_cxk474h"; 
+    const templateID = "template_0afyibn"; 
     const apiKey = 'yfFEoHDf60MTXLEaI'; //  Chave da API 
 
 
