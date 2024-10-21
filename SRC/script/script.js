@@ -135,7 +135,7 @@ function sendMail() {
 
     const serviceID = "service_cxk474h"; 
     const templateID = "template_0afyibn"; 
-    const apiKey = 'yfFEoHDf60MTXLEaI'; //  Chave da API 
+    const apiKey = 'l2VMZN3cw4r0LBiCdWVUH'; //  Chave da API 
 
 
     emailjs.init(apiKey); // Inicializa com a chave da API
