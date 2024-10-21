@@ -133,15 +133,13 @@ function sendMail() {
         message: messageInput.value
     };
 
-    const serviceID = "service_a23em6r"; 
-    const templateID = "__ejs-test-mail-service__"; 
-    const apiKey = 'UJfeGSYpsWM0D3nnd'; //  Chave da API 
-
-
-    emailjs.init(apiKey); // Inicializa com a chave da API
+    const serviceID = "service_a23em6r"; // Substitua pelo seu Service ID
+    const templateID = "__ejs-test-mail-service__"; // Substitua pelo seu Template ID
 
     emailjs.send(serviceID, templateID, params)
         .then((res) => {
+            console.log('E-mail enviado com sucesso!', res);
+
             // Limpa os campos do formulário
             nameInput.value = "";
             emailInput.value = "";
@@ -154,7 +152,7 @@ function sendMail() {
             contactForm.classList.add('csa-cf');
         })
         .catch((error) => {
-            console.error(error);
+            console.error('Erro ao enviar o e-mail:', error);
             // Exiba uma mensagem de erro ao usuário, se necessário
         });
 }
