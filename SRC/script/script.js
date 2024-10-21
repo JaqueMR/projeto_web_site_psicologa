@@ -134,7 +134,7 @@ function sendMail() {
     };
 
     const serviceID = "service_a23em6r"; 
-    const templateID = "template_0afyibn"; 
+    const templateID = "__ejs-test-mail-service__"; 
     const apiKey = 'UJfeGSYpsWM0D3nnd'; //  Chave da API 
 
 
