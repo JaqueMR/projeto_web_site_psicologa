@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bem-vindo ao site da Psicóloga Clínica. Descubra serviços de Psicoterapia, conheça mais sobre mim e entre em contato para agendar sua consulta.">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="SRC/style/style.css">
+    <link rel="icon" href="Assets/favicons/favicon.png" type="image/png" sizes="32x32">
+    <!-- Link para bibiotecas de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="./SRC/pages/about-me.html">Sobre mim</a>
+            <a href="./SRC/pages/psychotherapy.html">Psicoterapia</a>
+        </div>
+
+        <div class="main">
+            <a href="./SRC/pages/contact.html" class="user main-items">
+                <i class="fas fa-envelope cm-icon"></i>Entre em contato comigo
+            </a>
+            <!-- Ícone de menu -->
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="column right">
+                    <!-- Foto -->
+                    <img src="Assets/main-image.png" alt="Psicologa" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                </div>
+                <div class="column left">
+                    <div class="text">Jaqueline M. <span id="typed" class="iAm"></span></div>
+                    <p>
+                        "Por aprendizagem significativa, entendo, aquilo que provoca profunda modificação no indivíduo.
+                        Ela é penetrante, e não se limita a um aumento de conhecimento, mas abrange todas as parcelas de
+                        sua existência."
+                    <p>Carl Rogers</p>
+                    </p>
+                    <div class="buttons">
+                        <!-- Botão para entrar em contato -->
+                        <a href="SRC/pages/contact.html">Entre em contato comigo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="footer">
+            <div class="left">
+                &copy; 2024 • Melquides. J •  
+            </div>
+                <!-- Links para redes sociais -->
+                <div class="right"> 
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"> 
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div> 
+        <div class="social">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"> 
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div> 
+        <div class="social">
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"> 
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div> 
+        <div class="social">
+            <a href="" target="_blank" aria-label="WhatsApp"> 
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div> 
+    </div>
+        </footer>
+    </div>
+
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+    <!-- Link para o arquivo JavaScript externo -->
+    <script type="text/javascript" src="SRC/script/script.js"></script>
+
+    <!-- Link para a biblioteca Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        //  Efeito de digitação com Typed.js
+        var typed = new Typed('#typed', {
+            strings: ['Psicóloga Clínica', 'Abordagem Centrada na Pessoa'],
+            typeSpeed: 55,
+        });
+    </script>
+
+</body>
+
+</html>
