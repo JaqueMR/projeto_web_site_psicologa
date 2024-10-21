@@ -133,8 +133,8 @@ function sendMail() {
         message: messageInput.value
     };
 
-    const serviceID = "service_evf2wim"; 
-    const templateID = "template_v085uvl"; 
+    const serviceID = "service_cxk474h"; 
+    const templateID = "service_cxk474h"; 
     const apiKey = 'yfFEoHDf60MTXLEaI'; //  Chave da API 
 
 
